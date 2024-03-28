@@ -191,7 +191,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  Short papers:
     output: false
     permalink: /:collection/:path/
   publications:
