@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Abraximus / Abrax's guides to math"
+title                    : "Abrax's guides to math"
 title_separator          : "-"
 name                     : &name "Abraximus"
 description              : &description "I made this website to share my expository writing"
@@ -192,16 +192,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
