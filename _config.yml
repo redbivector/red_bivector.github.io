@@ -24,7 +24,8 @@ author:
   avatar           : "profile.png"
   name             : "Abraximus"
   pronouns         : "He/They" # example: "she/her"  
-  bio              : " Websites I recommend \n" [cut the knot](https://www.cut-the-knot.org/)
+  bio              : " Websites I recommend \n" 
+                   : [cut the knot](https://www.cut-the-knot.org/)
   location         : #
   employer         : #
   uri              : # URL
