@@ -25,7 +25,7 @@ author:
   name             : "Abraximus"
   pronouns         : "He/They" # example: "she/her"  
   bio              : " Websites I recommend \n" 
-                   : [cut the knot](https://www.cut-the-knot.org/)
+                   #: [cut the knot](https://www.cut-the-knot.org/)
   location         : #
   employer         : #
   uri              : # URL
@@ -192,7 +192,7 @@ kramdown:
 
 # Collections
 collections:
-  Short papers:
+  short_exposition:
     output: false
     permalink: /:collection/:path/
   publications:
@@ -226,10 +226,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _short_exposition
   - scope:
       path: ""
-      type: teaching
+      type: short_exposition
     values:
       layout: single
       author_profile: true
